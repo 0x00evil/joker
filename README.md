@@ -1,15 +1,13 @@
 # Joker
 
-**TODO: Add description**
+**Joker is a socket acceptor pool for TCP protocol.**
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
 
   1. Add joker to your list of dependencies in `mix.exs`:
 
         def deps do
-          [{:joker, "~> 0.0.1"}]
+          [{:joker, "~> 0.1.0"}]
         end
 
   2. Ensure joker is started before your application:
@@ -17,4 +15,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:joker]]
         end
-
