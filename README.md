@@ -1,6 +1,6 @@
 # Joker
 
-**Joker is a socket acceptor pool for TCP protocol.**
+**Joker is a socket acceptor pool for TCP protocol written in Elixir.**
 
 ## Installation
 
