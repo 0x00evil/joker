@@ -1,4 +1,4 @@
-defmodule JokerServer do
+defmodule Joker.Server do
   use GenServer
 
   def start_link do
