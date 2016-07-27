@@ -8,7 +8,7 @@ defmodule Joker.Supervisor do
   def init(:ok) do
     :joker_server = :ets.new(:joker_server, [:named_table, :public, :ordered_set])
 
-    child = [worker(JokerServer, [])]
+    child = [worker(Joker.Server, [])]
     opts = [strategy: :one_for_one]
     supervise(child, opts)
   end
